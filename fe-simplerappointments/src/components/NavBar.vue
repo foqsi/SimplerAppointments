@@ -3,7 +3,9 @@
     <div class="navbar mx-auto w-full max-w-screen-xl">
       <!-- Left Section -->
       <div class="navbar-start">
-        <SideMenu />
+        <div v-if="!isLoggedIn" class="">
+          <SideMenu />
+        </div>
         <a href="/" class="btn btn-ghost lg:hidden text-lg -ml-8"
           >SimplerAppointments</a
         >

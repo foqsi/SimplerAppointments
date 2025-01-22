@@ -39,7 +39,7 @@
           </ul>
         </div>
         <div class="p-4 border-t">
-          <button class="btn btn-primary w-full mt-4">Logout</button>
+          <!-- <button class="btn btn-primary w-full mt-4">Logout</button> -->
         </div>
       </div>
     </div>

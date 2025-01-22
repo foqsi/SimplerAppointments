@@ -1,12 +1,10 @@
-import './tailwind.css'
+import "./tailwind.css";
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import posthogPlugin from "./plugins/posthog"
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
 const app = createApp(App);
-app.use(posthogPlugin);
 app.use(router);
 
-app.mount('#app');
+app.mount("#app");
